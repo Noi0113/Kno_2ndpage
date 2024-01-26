@@ -6,6 +6,11 @@ def main():
 #タイトル
 st.title('新規作成ページ遷移成功')
 
+import pulp
+import random 
+import random
+import numpy as np
+import csv
 
 #CSVファイルをアップロード(とりあえず)
 import pandas as pd
@@ -15,11 +20,7 @@ if uploaded_file is not None:
     if st.button('CSV表示',use_container_width=True):
 
     ####ここに最適化をいれる####
-        import pulp
-        import random 
-        import random
-        import numpy as np
-        import csv
+
         
         ##定数##
         #試合数
