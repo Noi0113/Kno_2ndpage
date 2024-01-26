@@ -6,12 +6,6 @@ def main():
 #タイトル
 st.title('新規作成ページ遷移成功')
 
-monketsu easy_install pip
-pip3 install pipenv
-cd myproject
-pipenv shell
-pipnev install pulp
-
 import pulp
 import random 
 import random
