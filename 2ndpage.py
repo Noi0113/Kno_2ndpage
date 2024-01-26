@@ -15,8 +15,6 @@ if uploaded_file is not None:
     if st.button('CSV表示',use_container_width=True):
         st.write(data)
         #if st.button('学校名の抽出',use_container_width=True):
-            
-##RinaIchiryu###
 
 #ここから下は編集しない
 if __name__ == '__main__':
