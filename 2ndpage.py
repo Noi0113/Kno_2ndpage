@@ -13,6 +13,10 @@ uploaded_file = st.file_uploader("CSVファイルを選択してください。(
 if uploaded_file is not None:
     data = pd.read_csv(uploaded_file)
     if st.button('CSV表示',use_container_width=True):
+
+    ####ここに最適化をいれる####
+    
+        
         st.write(data)
         #if st.button('学校名の抽出',use_container_width=True):
 
