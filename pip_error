@@ -1,2 +1,15 @@
-pip install pulp
-import pulp
+[tool.poetry]
+name = "Kno_2ndpage"
+version = "0.1.0"
+description = ""
+authors = ["Noi0113"]
+readme = "README.md"
+packages = [{include = "2ndpage"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+jupyter = "^1.0.0"
+numpy = "^1.24.3"
+pulp = "^2.7.0"
+streamlit = "^1.29.0"
+pandas = "^2.1.3"
