@@ -6,7 +6,7 @@ def main():
 #タイトル
 st.title('新規作成ページ遷移成功')
 
-import pulp
+#import pulp
 import random
 import numpy as np
 import csv
