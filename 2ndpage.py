@@ -6,10 +6,7 @@ def main():
 #タイトル
 st.title('新規作成ページ遷移成功')
 
-
-
 import pulp
-#from pulp import LpProblem, LpVariable, LpMaximize, LpBinary, LpStatus
 import random
 import numpy as np
 import csv
@@ -25,7 +22,7 @@ if uploaded_file is not None:
 
 
         ##csvファイルの出力##
-        #st.write(data25_2)
+        st.write(data)
         #if st.button('学校名の抽出',use_container_width=True):
 
 #ここから下は編集しない
