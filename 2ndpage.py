@@ -6,7 +6,8 @@ def main():
 #タイトル
 st.title('新規作成ページ遷移成功')
 
-pip3 install pulp --user
+pip install --upgrade pip
+#pip install pulp --user
 
 #import pulp
 import random
