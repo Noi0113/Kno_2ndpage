@@ -8,7 +8,8 @@ st.title('新規作成ページ遷移成功')
 
 #pip install pulp --user
 import site
-import pulp
+site.getusersitepackages()
+#import pulp
 import random
 import numpy as np
 import csv
