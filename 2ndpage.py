@@ -6,7 +6,7 @@ def main():
 #タイトル
 st.title('新規作成ページ遷移成功')
 
-sudo pip install coin-or-cbc
+install coin-or-cbc
 
 #import pulp
 #from pulp import LpProblem, LpVariable, LpMaximize, LpBinary, LpStatus
