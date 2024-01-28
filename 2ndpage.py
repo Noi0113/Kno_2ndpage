@@ -6,8 +6,9 @@ def main():
 #タイトル
 st.title('新規作成ページ遷移成功')
 
-pip install pulp
-import pulp
+pip install coin-or-cbc
+
+#import pulp
 #from pulp import LpProblem, LpVariable, LpMaximize, LpBinary, LpStatus
 import random
 import numpy as np
