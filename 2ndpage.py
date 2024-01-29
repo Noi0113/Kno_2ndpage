@@ -8,11 +8,11 @@ st.title('新規作成ページ遷移成功')
 
 #install coin-or-cbc
 #pip install pulp
-pip install pulp
+#pip install pulp
 
-#import subprocess
+import subprocess
 # subprocessモジュールを使用してpipを呼び出し、モジュールをインストールする
-#subprocess.check_call(["pip", "install", "pulp"])
+subprocess.check_call(["pip", "install", "pulp"])
 #pip! install pulp
 
 import pulp
