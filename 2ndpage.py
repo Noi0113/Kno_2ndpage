@@ -8,6 +8,7 @@ st.title('新規作成ページ遷移成功')
 
 #install coin-or-cbc
 #pip install pulp
+pip install pulp
 
 import pulp
 import random
