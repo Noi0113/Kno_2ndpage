@@ -9,7 +9,7 @@ st.title('新規作成ページ遷移成功')
 #install coin-or-cbc
 #pip install pulp
 
-import PuLP
+import pulp
 import random
 import numpy as np
 import csv
